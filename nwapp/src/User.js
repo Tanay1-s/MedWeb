@@ -24,7 +24,7 @@ function User(props) {
   //   userage: localStorage.getItem("age"),
   // });
   // const fetcher = async () => {
-  //   const user = await fetch(`http://localhost:5000/api/h1/qrcode/${data}`, {
+  //   const user = await fetch(`https://medweb.onrender.com/api/h1/qrcode/${data}`, {
   //     method: "GET",
   //     headers: {
   //       "Content-Type": "application/json",

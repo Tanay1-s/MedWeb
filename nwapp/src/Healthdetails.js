@@ -18,7 +18,7 @@ function Healthdetails() {
   }
   function handleFormSubmit(event) {
     event.preventDefault();
-    fetch("http://localhost:5000/api/h1/sethealth", {
+    fetch("https://medweb.onrender.com/api/h1/sethealth", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

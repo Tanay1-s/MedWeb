@@ -45,7 +45,7 @@ function Hospscan() {
   const fetcher = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/h1/fetchqr?mail=${mail}`,
+        `https://medweb.onrender.com/api/h1/fetchqr?mail=${mail}`,
         {
           method: "GET",
           headers: {
@@ -72,7 +72,7 @@ function Hospscan() {
   //   const fetchData = async () => {
   //     try {
   //       const response = await fetch(
-  //         `http://localhost:5000/api/h1/hospfetch/${email}`
+  //         `https://medweb.onrender.com/api/h1/hospfetch/${email}`
   //       );
   //       const jsonData = await response.json();
   //       setUserData(jsonData);

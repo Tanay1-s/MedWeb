@@ -22,7 +22,7 @@ function Register() {
     event.preventDefault();
     console.log(userD);
 
-    fetch("http://localhost:5000/api/h1/signin", {
+    fetch("https://medweb.onrender.com/api/h1/signin", {
       method: "POST",
 
       headers: {

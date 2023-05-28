@@ -18,7 +18,7 @@ function Login() {
   function handleFormSubmit(event) {
     event.preventDefault();
     console.log(userD);
-    fetch("http://localhost:5000/api/h1/login", {
+    fetch("https://medweb.onrender.com/api/h1/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -116,13 +116,6 @@ function Login() {
                       if new, register
                     </button>
                   </form>
-                  <a
-                    href="#"
-                    className="mt-4 block text-sm text-center font-medium text-rose-600 hover:underline focus:outline-none focus:ring-2 focus:ring-rose-500"
-                  >
-                    {" "}
-                    Forgot your password?{" "}
-                  </a>
                 </div>
               </div>
             </div>
